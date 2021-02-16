@@ -1,0 +1,45 @@
+Script started on Mon 15 Feb 2021 09:20:16 PM PST
+]0;jst83366@ssh: ~/Comp122/checksum.c[01;32mjst83366@ssh[00m:[01;34m~/Comp122/checksum.c[00m$ cat 156.txt | ints2bytes | checksum
+Please enter 10 Numbers between 0 - 255:
+Numbers Entered: 45 
+Numbers Entered: 2 
+Numbers Entered: 16 
+Numbers Entered: 5 
+Numbers Entered: 12 
+Numbers Entered: 0 
+Numbers Entered: 55 
+Numbers Entered: 17 
+Numbers Entered: 192 
+Numbers Entered: 10 
+Stored Checksum: 156, Computed Checksum: 156
+]0;jst83366@ssh: ~/Comp122/checksum.c[01;32mjst83366@ssh[00m:[01;34m~/Comp122/checksum.c[00m$ cat 229.txt | ints2bytes | checksum
+Please enter 10 Numbers between 0 - 255:
+Numbers Entered: 45 
+Numbers Entered: 2 
+Numbers Entered: 16 
+Numbers Entered: 5 
+Numbers Entered: 12 
+Numbers Entered: 0 
+Numbers Entered: 55 
+Numbers Entered: 17 
+Numbers Entered: 192 
+Numbers Entered: 34 
+Stored Checksum: 229, Computed Checksum: 132
+Error Detected!
+]0;jst83366@ssh: ~/Comp122/checksum.c[01;32mjst83366@ssh[00m:[01;34m~/Comp122/checksum.c[00m$ cat 81.txt  | ints2bytes | checksum
+Please enter 10 Numbers between 0 - 255:
+Numbers Entered: 145 
+Numbers Entered: 24 
+Numbers Entered: 16 
+Numbers Entered: 54 
+Numbers Entered: 1 
+Numbers Entered: 0 
+Numbers Entered: 225 
+Numbers Entered: 174 
+Numbers Entered: 12 
+Numbers Entered: 33 
+Stored Checksum: 81, Computed Checksum: 81
+]0;jst83366@ssh: ~/Comp122/checksum.c[01;32mjst83366@ssh[00m:[01;34m~/Comp122/checksum.c[00m$ exit
+exit
+
+Script done on Mon 15 Feb 2021 09:21:02 PM PST
